@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knitting_Products", "Knitting_Products\Knitting_Products.csproj", "{08620F3B-D32E-4DF9-8729-8E5E49E5EDBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08620F3B-D32E-4DF9-8729-8E5E49E5EDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08620F3B-D32E-4DF9-8729-8E5E49E5EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08620F3B-D32E-4DF9-8729-8E5E49E5EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08620F3B-D32E-4DF9-8729-8E5E49E5EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C50CC7-2549-4416-AF8A-F157A3726B60}
+	EndGlobalSection
+EndGlobal
