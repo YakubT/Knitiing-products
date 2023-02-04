@@ -79,7 +79,6 @@ C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\bin\ru\System.Web.WebPages.resources.dll
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\bin\ru\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\bin\ru\System.Web.WebPages.Razor.resources.dll
-C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\obj\Debug\Knitting_Products.csproj.AssemblyReference.cache
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\obj\Debug\Knitting_Products.csproj.CoreCompileInputs.cache
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\obj\Debug\Knitting_Products.csproj.CopyComplete
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\obj\Debug\Knitting_Products.dll
@@ -114,3 +113,4 @@ C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\bin\System.Threading.Channels.xml
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\bin\System.ValueTuple.xml
+C:\Users\Anatoly\Documents\Лаби\ASP MVC\Knitting_Products\Knitting_Products\obj\Debug\Knitting_Products.csproj.AssemblyReference.cache

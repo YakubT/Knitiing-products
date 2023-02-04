@@ -39,7 +39,7 @@
             {
 
                 <div id="product">
-                    <img src="@ViewBag.list[i].Img" />
+                    <img src="@ViewBag.list[i].Img?v=@DateTime.Now.Millisecond" />
                     <p>@ViewBag.list[i].Description</p>
                     <p>Ціна: @ViewBag.list[i].Price грн.</p>
                     <button id="@i">додати до кошику</button>
@@ -48,6 +48,11 @@
         </div>
 
     </div>
+
+    <footer>
+        <p>+38(097)-31-44-44-8</p>
+        <p>&#169 Yakub's shop</p>
+    </footer>
 </body>
 
 </html>
