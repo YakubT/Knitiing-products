@@ -12,23 +12,25 @@ body {
     background-color: white;
     margin: 2vw;
     margin-bottom: 4vh;
+    box-sizing:content-box;
 }
 
 header li {
-	text-align: center;
-	list-style: none;
-	background-color: #99b5bb;
-	font-weight: bold;
-	border: solid black 1px;
-	height: 10vmin;
-	padding-top: 4vmin;
-	color:black;
-	margin-bottom: 5vh;
+    list-style: none;
+    margin-bottom: 5vh;
 }
 
-li > a {
+header li > a {
+    text-align: center;
+    background-color: #99b5bb;
+    font-weight: bold;
+    border: solid black 1px;
+    height: 10vmin;
     color: black;
-    text-decoration:none;
+    color: black;
+    display: block;
+    padding-top: 4vmin;
+    text-decoration: none;
 }
 h1, h2, h3 {
 	text-align: center;
@@ -65,6 +67,12 @@ p {
     height:8vh;
 }
 
+
+
+li > a {
+    display: block;
+    text-decoration: none;
+}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;

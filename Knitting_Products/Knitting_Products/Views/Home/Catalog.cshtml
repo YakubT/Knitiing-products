@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Yakub's shop каталог</title>
+    <link rel="stylesheet" type="text/css" href="../Content/style.css?v=@DateTime.Now.Millisecond">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="doc">
+        <header>
+            <h1>
+                Магазин в'язаних виробів
+            </h1>
+            <ul class="row">
+
+                <li class="col-lg-4 col-md-4 col-sm-12">
+                    <a href="@Url.Action("Index", "Home")" class="elements">
+                        Головна
+                    </a>
+                </li>
+
+                <li class="col-lg-4 col-md-4 col-sm-12">
+                    <a href="@Url.Action("Catalog", "Home")" class="elements">
+                        Каталог
+                    </a>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-12">
+                    <a>
+                        Кошик
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <h2>Каталог виробів</h2>
+
+        <div id="content">
+            @for (int i = 0; i < @ViewBag.list.Count; i++)
+            {
+
+                <div id="product">
+                    <img src="@ViewBag.list[i].Img" />
+                    <p>@ViewBag.list[i].Description</p>
+                    <p>Ціна: @ViewBag.list[i].Price грн.</p>
+                    <button id="@i">додати до кошику</button>
+                </div>
+            }
+        </div>
+
+    </div>
+</body>
+
+</html>

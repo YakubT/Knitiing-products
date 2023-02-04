@@ -29,7 +29,7 @@ namespace Knitting_Products.Models.dao.postgreSql
         {
             NpgsqlConnection connection = new NpgsqlConnection(connectionString);
             connection.Open();
-            string query = "Select id, price, img, date, description from \"Products\";";
+            string query = "Select id, price, img, date, description from \"Products\" WHERE isordered=false;";
             NpgsqlCommand command = new NpgsqlCommand(query, connection);
             NpgsqlDataAdapter dataAdapter = new NpgsqlDataAdapter(command);
             DataTable dt = new DataTable();

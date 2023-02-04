@@ -25,5 +25,15 @@ namespace Knitting_Products.Controllers
             return View();
         }
 
+        public ActionResult Catalog()
+        {
+            IProductDao productDao = new ProductDao();
+            List<Product> list = productDao.GetProducts();
+            list.Sort((list1, list2) => list1.Date.CompareTo(list1.Date));
+            list.Reverse();
+            ViewBag.list = list;
+
+            return View();
+        }
     }
 }
